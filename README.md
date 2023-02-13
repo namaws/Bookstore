@@ -1,2 +1,5 @@
 # Bookstore
-add checkout function
+Web application contains User History, Server/Client transaction validation, state manegement. 
+Skills: JavaSript, HTML5, CSS3, Vue.js, Java, Gradle, RESTful APIS, Apache Tomcat, MySQL
+
+Future work: Deployment, add third-party payment API, add Google Map API
