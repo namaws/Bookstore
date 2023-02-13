@@ -1,2 +1,2 @@
-# BookstoreValidate
+# Bookstore
 add checkout function
