@@ -1,0 +1,304 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET http://localhost:8080/WanYiBookstoreOrder/api/categories
+Accept: application/json
+
+###
+
+# curl 'http://localhost:8080/WanYiBookstoreOrder/api/orders'
+#  -H 'Connection: keep-alive'
+#  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+#  -H 'sec-ch-ua-platform: "Windows"'
+#  -H 'Content-Type: application/json'
+#  -H 'Accept: */*'
+#  -H 'Origin: http://localhost:8081'
+#  -H 'Sec-Fetch-Site: same-site'
+#  -H 'Sec-Fetch-Mode: cors'
+#  -H 'Sec-Fetch-Dest: empty'
+#  -H 'Referer: http://localhost:8081/'
+#  -H 'Accept-Language: en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7'
+#  --data-raw '{"cart":{"items":[{"book":{"bookId":1003,"title":"The Brothers Karamazov","author":"Fyodor Dostoyevski","description":"","price":799,"rating":0,"isPublic":true,"isFeatured":false,"categoryId":1001},"quantity":1}]},"customerForm":{"name":"Wan-Yi Mao","address":"2251 Pimmit Drive, Apt 634","phone":"5032078736","email":"wanyi@vt.edu","ccNumber":"4444333322221111","ccExpiryMonth":11,"ccExpiryYear":2021}}'
+#  --compressed
+POST http://localhost:8080/WanYiBookstoreOrder/api/orders
+Connection: keep-alive
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Origin: http://localhost:8081
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8081/
+Accept-Language: en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Content-Type: application/json
+
+{
+  "cart": {
+    "items": [
+      {
+        "book": {
+          "bookId": 1003,
+          "title": "The Brothers Karamazov",
+          "author": "Fyodor Dostoyevski",
+          "description": "",
+          "price": 799,
+          "rating": 0,
+          "isPublic": true,
+          "isFeatured": false,
+          "categoryId": 1001
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  "customerForm": {
+    "name": "wan",
+    "address": "2251 Pimmit Drive, Apt 634",
+    "phone": "5032078736",
+    "email": "wanyi@vt.edu",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 11,
+    "ccExpiryYear": 2020
+  }
+}
+
+###
+
+POST http://localhost:8080/WanYiBookstoreOrder/api/orders
+Connection: keep-alive
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Origin: http://localhost:8081
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8081/
+Accept-Language: en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Content-Type: application/json
+
+{
+  "cart": {
+    "items": [
+      {
+        "book": {
+          "bookId": 1003,
+          "title": "The Brothers Karamazov",
+          "author": "Fyodor Dostoyevski",
+          "description": "",
+          "price": 799,
+          "rating": 0,
+          "isPublic": true,
+          "isFeatured": false,
+          "categoryId": 1001
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  "customerForm": {
+    "name": "wanyi",
+    "address": "2251 Pimmit Drive, Apt 634",
+    "phone": "5032",
+    "email": "wanyi@vt.edu",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 11,
+    "ccExpiryYear": 2020
+  }
+}
+###
+
+POST http://localhost:8080/WanYiBookstoreOrder/api/orders
+Connection: keep-alive
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Origin: http://localhost:8081
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8081/
+Accept-Language: en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Content-Type: application/json
+
+{
+"cart": {
+"items": [
+{
+"book": {
+"bookId": 1003,
+"title": "The Brothers Karamazov",
+"author": "Fyodor Dostoyevski",
+"description": "",
+"price": 799,
+"rating": 0,
+"isPublic": true,
+"isFeatured": false,
+"categoryId": 1001
+},
+"quantity": 1
+}
+]
+},
+"customerForm": {
+"name": "wanyi",
+"address": "2251 Pimmit Drive, Apt 634",
+"phone": "5032078736",
+"email": "wanyivt.edu",
+"ccNumber": "4444333322221111",
+"ccExpiryMonth": 11,
+"ccExpiryYear": 2020
+}
+}
+###
+POST http://localhost:8080/WanYiBookstoreOrder/api/orders
+Connection: keep-alive
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Origin: http://localhost:8081
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8081/
+Accept-Language: en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Content-Type: application/json
+
+{
+"cart": {
+"items": [
+{
+"book": {
+"bookId": 1003,
+"title": "The Brothers Karamazov",
+"author": "Fyodor Dostoyevski",
+"description": "",
+"price": 799,
+"rating": 0,
+"isPublic": true,
+"isFeatured": false,
+"categoryId": 1001
+},
+"quantity": 1
+}
+]
+},
+"customerForm": {
+"name": "wanyi",
+"address": "2251 Pimmit Drive, Apt 634",
+"phone": "5032",
+"email": "wanyi@vt.edu",
+"ccNumber": "4444333322221111",
+"ccExpiryMonth": 11,
+"ccExpiryYear": 2020
+}
+}
+###
+
+POST http://localhost:8080/WanYiBookstoreOrder/api/orders
+Connection: keep-alive
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Origin: http://localhost:8081
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8081/
+Accept-Language: en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Content-Type: application/json
+
+{
+  "cart": {
+    "items": [
+      {
+        "book": {
+          "bookId": 1003,
+          "title": "The Brothers Karamazov",
+          "author": "Fyodor Dostoyevski",
+          "description": "",
+          "price": 799,
+          "rating": 0,
+          "isPublic": true,
+          "isFeatured": false,
+          "categoryId": 1001
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  "customerForm": {
+    "name": "wanyi",
+    "address": "2251 Pimmit Drive, Apt 634",
+    "phone": "5032078736",
+    "email": "wanyi@vt.edu..",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 11,
+    "ccExpiryYear": 2020
+  }
+}
+###
+
+POST http://localhost:8080/WanYiBookstoreOrder/api/orders
+Connection: keep-alive
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Origin: http://localhost:8081
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8081/
+Accept-Language: en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Content-Type: application/json
+
+{
+  "cart": {
+    "items": [
+      {
+        "book": {
+          "bookId": 1003,
+          "title": "The Brothers Karamazov",
+          "author": "Fyodor Dostoyevski",
+          "description": "",
+          "price": 799,
+          "rating": 0,
+          "isPublic": true,
+          "isFeatured": false,
+          "categoryId": 1001
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  "customerForm": {
+    "name": "wanyi",
+    "address": "2251 Pimmit Drive, Apt 634",
+    "phone": "5032078736",
+    "email": "wanyi@@vt.edu",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 5,
+    "ccExpiryYear": 2020
+  }
+}
+###
