@@ -12,3 +12,4 @@ use the following cmd to check Tomcat status
 sudo systemctl status tomcat
 ```
 ###### Install MySQL on your EC2 instance
+** AWS EC2 doesn't have apt or apt-get -> using yum instead
