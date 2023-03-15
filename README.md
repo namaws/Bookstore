@@ -12,17 +12,30 @@ use the following cmd to check Tomcat status
 sudo systemctl status tomcat
 ```
 ##### Install MySQL on your EC2 instance
-** AWS EC2 doesn't have apt or apt-get -> using yum instead
+There are a couple of methods that can install mysql on your EC2 instance, depends on which way you prefer, feel free to follow the instruction below as well.
+1. Download the MySQL Installer using the following command:
 ```
-sudo yum install mysql-server -y
+wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
 ```
-A common issue would have is 
+The above command is for downloading the MySQL 8.0 installer. If you want a different version, just replace mysql180 with the version you want.  
+2. Install the MySQL Installer package
 ```
-The GPG keys listed for the "MySQL 5.7 Community Server" repository are already installed but they are not correct for this package.
-Check that the correct key URLs are configured for this repository.
+sudo rpm -ivh mysql80-community-release-el7-3.noarch.rpm
+```
+3. Install MySQL
+```
+sudo yum install mysql-community-server
+```
+4. Once the installation is complete, start the MySQL service
+```
+sudo systemctl start mysqld
+```
+5. You can check if the service is running
+```
+sudo systemctl status mysqld
+```
 
-
- Failing package is: mysql-community-libs-compat-5.7.41-1.el7.x86_64
- GPG Keys are configured as: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
- ```
- 
+If you want to stop the service
+```
+sudo systemctl stop mysqld
+```
