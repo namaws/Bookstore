@@ -4,14 +4,14 @@ Skills: JavaSript, HTML5, CSS3, Vue.js, Java, Gradle, RESTful APIS, Apache Tomca
 
 Future work: Deployment, add third-party payment API, add Google Map API
 
-#### Deployment
-##### Using AWS EC2 
-##### Install Apache Tomcat on your EC2 instance
+## Deployment
+### Using AWS EC2 
+### Install Apache Tomcat on your EC2 instance
 use the following cmd to check Tomcat status
 ```
 sudo systemctl status tomcat
 ```
-##### Install MySQL on your EC2 instance
+### Install MySQL on your EC2 instance
 There are a couple of methods that can install mysql on your EC2 instance, depends on which way you prefer, feel free to follow the instruction below as well.
 1. Download the MySQL Installer using the following command:
 ```
