@@ -3,6 +3,9 @@ This project is an E-commerce Web application with Responsive Design and contain
 It uses RESTful APIs to CRUD books and fetch data from the MySQL Database.  
 Skills: JavaSript, HTML5, CSS3, Vue.js, Java, Gradle, RESTful APIS, Apache Tomcat, MySQL
 
+## Diagram about the project structure
+![Diagram](screenshot.png)
+
 Future work: Deployment, add third-party payment API, add Google Map API
 
 ## Deployment
