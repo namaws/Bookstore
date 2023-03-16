@@ -1,5 +1,6 @@
 # Bookstore
-Web application contains User History, Server/Client transaction validation, state manegement. 
+This project is an E-commerce Web application with Responsive Design and contains user history, server/client transaction validation, state manegement. 
+It uses RESTful APIs to CRUD books and fetch data from the MySQL Database.
 Skills: JavaSript, HTML5, CSS3, Vue.js, Java, Gradle, RESTful APIS, Apache Tomcat, MySQL
 
 Future work: Deployment, add third-party payment API, add Google Map API
