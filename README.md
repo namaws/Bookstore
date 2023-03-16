@@ -4,7 +4,9 @@ It uses RESTful APIs to CRUD books and fetch data from the MySQL Database.
 Skills: JavaSript, HTML5, CSS3, Vue.js, Java, Gradle, RESTful APIS, Apache Tomcat, MySQL
 
 ## Diagram about the project structure
-![Diagram](screenshot.png)
+<p align="center">
+  <img src="screenshot.png" width="350" title="hover text">
+</p>
 
 Future work: Deployment, add third-party payment API, add Google Map API
 
