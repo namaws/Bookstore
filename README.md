@@ -5,7 +5,7 @@ Skills: JavaSript, HTML5, CSS3, Vue.js, Java, Gradle, RESTful APIS, Apache Tomca
 
 ## Diagram about the project structure
 <p align="center">
-  <img src="screenshot.png" width="350" title="hover text">
+  <img src="https://github.com/namaws/Bookstore/blob/main/sceenshot.png" width="700" title="hover text">
 </p>
 
 Future work: Deployment, add third-party payment API, add Google Map API
